@@ -1,1 +1,33 @@
-CREATE DATABASE 
+CREATE DATABASE Inlock_Games_Tarde
+
+USE Inlock_Games_Tarde
+
+CREATE TABLE Estudio(
+idEstudio TINYINT PRIMARY KEY IDENTITY,
+NomeEstudio VARCHAR(30) UNIQUE,
+)
+GO
+
+CREATE TABLE  Jogos(
+idJogos TINYINT PRIMARY KEY IDENTITY,
+Nome VARCHAR(40),
+Descricao VARCHAR(150),
+Valor SMALLMONEY,
+DataLancamento Date,
+idEstudio TINYINT FOREIGN KEY REFERENCES Estudio(idEstudio),
+)
+GO
+
+CREATE TABLE TipoUsuario(
+idTipoUsuario TINYINT PRIMARY KEY IDENTITY,
+titulo VARCHAR(13),
+)
+GO
+
+CREATE TABLE Usuario(
+idUsuario SMALLINT PRIMARY KEY IDENTITY,
+Email VARCHAR(256) UNIQUE,
+Senha VARCHAR(16),
+idTipoUsuario TINYINT FOREIGN KEY REFERENCES TipoUsuario(idTipoUsuario)
+)
+GO
