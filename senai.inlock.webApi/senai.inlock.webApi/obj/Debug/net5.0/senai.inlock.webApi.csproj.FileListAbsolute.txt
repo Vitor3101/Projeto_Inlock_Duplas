@@ -1,0 +1,6 @@
+C:\Users\theus\OneDrive\Documentos\Projeto_Inlock_Duplas\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net5.0\senai.inlock.webApi.csproj.AssemblyReference.cache
+C:\Users\theus\OneDrive\Documentos\Projeto_Inlock_Duplas\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net5.0\senai.inlock.webApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theus\OneDrive\Documentos\Projeto_Inlock_Duplas\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net5.0\senai.inlock.webApi.AssemblyInfoInputs.cache
+C:\Users\theus\OneDrive\Documentos\Projeto_Inlock_Duplas\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net5.0\senai.inlock.webApi.AssemblyInfo.cs
+C:\Users\theus\OneDrive\Documentos\Projeto_Inlock_Duplas\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net5.0\senai.inlock.webApi.csproj.CoreCompileInputs.cache
+C:\Users\theus\OneDrive\Documentos\Projeto_Inlock_Duplas\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net5.0\senai.inlock.webApi.MvcApplicationPartsAssemblyInfo.cache

@@ -13,10 +13,5 @@ namespace senai.inlock.webApi.Interfaces
 
         UsuarioDomain BuscarPorId(int idUsuario);
 
-        void Cadastrar(UsuarioDomain novoUsuario);
-
-        void AtualizarIdCorpo(UsuarioDomain usuarioAtualizado);
-
-        void Deletar(int idUsuario);
     }
 }

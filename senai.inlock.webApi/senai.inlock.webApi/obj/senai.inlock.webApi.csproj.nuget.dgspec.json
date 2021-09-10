@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\Documents\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {}
+    "C:\\Users\\theus\\OneDrive\\Documentos\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\Documents\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {
+    "C:\\Users\\theus\\OneDrive\\Documentos\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\Documents\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
+        "projectUniqueName": "C:\\Users\\theus\\OneDrive\\Documentos\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
         "projectName": "senai.inlock.webApi",
-        "projectPath": "C:\\Users\\fic\\Documents\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\Documents\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
+        "projectPath": "C:\\Users\\theus\\OneDrive\\Documentos\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
+        "packagesPath": "C:\\Users\\theus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\theus\\OneDrive\\Documentos\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\theus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
