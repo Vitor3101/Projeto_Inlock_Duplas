@@ -13,5 +13,7 @@ namespace senai.inlock.webApi.Interfaces
 
         UsuarioDomain BuscarPorId(int idUsuario);
 
+        UsuarioDomain BuscarPorEmailSenha(string email, string senha);
+
     }
 }

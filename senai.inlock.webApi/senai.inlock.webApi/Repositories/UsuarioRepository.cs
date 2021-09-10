@@ -83,5 +83,47 @@ namespace senai.inlock.webApi.Repositories
             }
             return listaUsuario;
         }
+        public UsuarioDomain BuscarPorEmailSenha(string email, string senha)
+        {
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+
+                string querySelect = @" SELECT idUsuario ,Email ,Senha, titulo FROM Usuario 
+                                        INNER JOIN TipoUsuario
+                                        ON TipoUsuario.idTipoUsuario = Usuario.idTipoUsuario
+                                         WHERE Email = @Email and Senha = @Senha ";
+
+                using (SqlCommand cmd = new SqlCommand(querySelect, con))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@senha", senha);
+
+                    con.Open();
+
+                    SqlDataReader rdr = cmd.ExecuteReader();
+
+                    if (rdr.Read())
+                    {
+                        UsuarioDomain usuarioBuscado = new UsuarioDomain
+                        {
+                            idUsuario = Convert.ToInt32(rdr["idUsuario"]),
+                            Email = rdr["email"].ToString(),
+                            Senha = rdr["senha"].ToString(),
+
+                            tipoUsuario = new TipoUsuarioDomain
+                            {
+                                titulo = rdr["titulo"].ToString(),
+                            }
+                        };
+
+
+                        return usuarioBuscado;
+
+                    }
+
+                    return null;
+                }
+            }
+        }
     }
 }

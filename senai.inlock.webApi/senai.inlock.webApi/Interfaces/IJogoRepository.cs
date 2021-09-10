@@ -15,7 +15,7 @@ namespace senai.inlock.webApi.Interfaces
 
             void Cadastrar(JogoDomain novoJogo);
 
-            void AtualizarIdCorpo(JogoDomain jogoAtualizado);
+            void AtualizarIdUrl(int idJogo, JogoDomain jogoAtualizado);
 
             void Deletar(int idjogo);
 
