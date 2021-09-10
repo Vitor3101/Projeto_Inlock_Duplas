@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "fdo8+GH58FzFm1W39Svw/cCA2x6IBFz2DR8eR5edxIef+gbfCZOedc7VMTKrBoK1/XUykGNmkbjb5i9dgE5MaA==",
+  "dgSpecHash": "5yFLXqI/B0MTHXkTEi+6gO9pSu+9PknqjWtfCmWjEuCY8jSy6ZwNV6vKATg5S27J//pMwWafpiVHqajdqNleOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\Pojeto\\Projeto_Inlock_Duplas\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\microsoft.identitymodel.jsonwebtokens.6.12.2.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\microsoft.identitymodel.logging.6.12.2.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\microsoft.identitymodel.tokens.6.12.2.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\system.identitymodel.tokens.jwt.6.12.2.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
